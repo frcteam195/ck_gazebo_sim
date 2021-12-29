@@ -1,0 +1,10 @@
+
+set(PLUGIN_NAME 2016_plugin)
+
+add_library(${PLUGIN_NAME} SHARED 2016_plugin.cpp)
+target_link_libraries( ${PLUGIN_NAME}
+  ${GAZEBO_LIBRARIES}
+  ${IGNITION-TRANSPORT_LIBRARIES}
+  ${IGNITION-MSGS_LIBRARIES} )
+
+
