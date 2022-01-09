@@ -1,0 +1,8 @@
+prefix=/mnt/working/ck_gazebo_sim/build/devel
+
+Name: ck_gazebo_sim
+Description: Description of ck_gazebo_sim
+Version: 0.1.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

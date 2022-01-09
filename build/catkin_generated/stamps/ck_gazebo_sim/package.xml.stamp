@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package>
+  <name>ck_gazebo_sim</name>
+  <version>0.1.0</version>
+  <description>A collection of plugins and worlds of different competitions</description>
+  <maintainer email="suli.barakat@gmail.com">Suli</maintainer>
+  <license>Apache 2.0</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>rospy</build_depend>
+  <run_depend>roscpp</run_depend>
+  <run_depend>rospy</run_depend>
+
+</package>

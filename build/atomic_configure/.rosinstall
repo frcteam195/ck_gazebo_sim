@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /mnt/working/ck_gazebo_sim/build/devel/setup.sh
